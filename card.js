@@ -8,6 +8,7 @@ let card, speed;
 function setup() {
   createCanvas(w, h, WEBGL);
   describe('Spining card');
+  frameRate(24);
   speed = 0.015;
 }
 
